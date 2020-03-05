@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset name="migration">
+    <field
+      id="path-rsgallery2joom"
+      name="path"
+      type="text"
+      class="inputbox span12"
+      label="FILES_JOOMGALLERY_MIGRATION_RSGALLERY2JOOM_PATH_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_RSGALLERY2JOOM_PATH_DESC"
+      required="true"
+    />
+    <field
+      id="copy_images-rsgallery2joom"
+      name="copy_images"
+      type="radio"
+      class="btn-group"
+      label="FILES_JOOMGALLERY_MIGRATION_RSGALLERY2JOOM_COPY_IMAGES_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_RSGALLERY2JOOM_COPY_IMAGES_DESC"
+      default="1"
+    >
+      <option value="0">JNO</option>
+      <option value="1">JYES</option>
+    </field>
+    <field
+      id="prefix-rsgallery2joom"
+      name="prefix"
+      type="text"
+      class="inputbox span3"
+      label="FILES_JOOMGALLERY_MIGRATION_RSGALLERY2JOOM_PREFIX_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_RSGALLERY2JOOM_PREFIX_DESC"
+      required="true"
+    />
+    <field
+      name="database"
+      type="joomdatabase"
+      prefix="false"
+    />
+  </fieldset>
+</form>

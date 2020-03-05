@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="file" version="3.0" method="upgrade">
+  <name>Migration Script from RSGallery2 to JoomGallery 3.x JUX</name>
+  <creationDate>2020/03/04</creationDate>
+  <author>JoomGallery::ProjectTeam</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>team@joomgalleryfriends.net</authorEmail>
+  <authorUrl>https://www.joomgalleryfriends.net</authorUrl>
+  <version>3.0.0</version>
+  <description>This script is able to migrate RSGallery2 to JoomGallery 3.x JUX</description>
+  <fileset>
+    <files target="administrator/components/com_joomgallery/helpers/migration">
+      <file>migratersgallery2joom.php</file>
+      <file>migratersgallery2joom.xml</file>
+    </files>
+  </fileset>
+  <languages folder="language" client="administrator">
+    <language tag="de-DE" client="administrator">de-DE/de-DE.com_joomgallery.migratersgallery2joom.ini</language>
+    <language tag="en-GB" client="administrator">en-GB/en-GB.com_joomgallery.migratersgallery2joom.ini</language>
+  </languages>
+</extension>
